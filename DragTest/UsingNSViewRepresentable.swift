@@ -10,6 +10,8 @@ import SwiftUI
 import AppKit
 
 class FileURLDragView: NSView, NSDraggingSource {
+    public var url: URL? = nil
+    
     func draggingSession(_ session: NSDraggingSession, sourceOperationMaskFor context: NSDraggingContext) -> NSDragOperation {
         return .copy
     }
@@ -40,17 +42,24 @@ class FileURLDragView: NSView, NSDraggingSource {
         // Replace this with your actual async code, e.g., fetching from a network request or reading from a file.
         DispatchQueue.global().async {
             // Simulating an asynchronous operation that fetches the URL.
-            let url = URL(fileURLWithPath: "/Users/sarensw/Downloads/bugs/analyze/trigger_174_HU_20230815_160238_CAN/boot/dlt_offlinetrace_collected.dlt")
+            for i in 0...100000 {
+                print(i)
+            }
+            
             DispatchQueue.main.async {
-                completion(url)
+                completion(self.url)
             }
         }
     }
 }
 
 struct FileURLDragViewRepresentable: NSViewRepresentable {
+    var url: URL
+    
     func makeNSView(context: Context) -> FileURLDragView {
-        return FileURLDragView()
+        let view = FileURLDragView()
+        view.url = url
+        return view
     }
 
     func updateNSView(_ nsView: FileURLDragView, context: Context) {
@@ -64,7 +73,7 @@ struct UsingNSViewRepresentable: View {
     var body: some View {
         VStack {
             Text("UsingNSViewRepresentable")
-                .background(FileURLDragViewRepresentable()) // Embed the NSView here
+                .overlay(FileURLDragViewRepresentable(url: url!)) // Embed the NSView here
         }
     }
 }

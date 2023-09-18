@@ -17,6 +17,7 @@ struct ContentView: View {
                 get: { url?.absoluteString ?? "" },
                 set: { url = URL(string: $0) }
             ))
+            UsingImmediately(url: $url)
             UsingNSItemProvider1(url: $url)
             UsingNSItemProvider2(url: $url)
             UsingNSItemProvider3(url: $url)

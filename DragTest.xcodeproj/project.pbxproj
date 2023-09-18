@@ -12,6 +12,7 @@
 		2593D43D2AB782C50062FDCD /* UsingTransferable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2593D43C2AB782C50062FDCD /* UsingTransferable.swift */; };
 		2593D43F2AB7849E0062FDCD /* UsingNSItemProvider2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2593D43E2AB7849E0062FDCD /* UsingNSItemProvider2.swift */; };
 		2593D4412AB7856B0062FDCD /* UsingNSItemProvider3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2593D4402AB7856B0062FDCD /* UsingNSItemProvider3.swift */; };
+		2593D4432AB7F2CC0062FDCD /* UsingImmediately.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2593D4422AB7F2CC0062FDCD /* UsingImmediately.swift */; };
 		25B88BA62AB3F42C0089351D /* DragTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B88BA52AB3F42C0089351D /* DragTestApp.swift */; };
 		25B88BA82AB3F42C0089351D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B88BA72AB3F42C0089351D /* ContentView.swift */; };
 		25B88BAA2AB3F42E0089351D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25B88BA92AB3F42E0089351D /* Assets.xcassets */; };
@@ -24,6 +25,7 @@
 		2593D43C2AB782C50062FDCD /* UsingTransferable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsingTransferable.swift; sourceTree = "<group>"; };
 		2593D43E2AB7849E0062FDCD /* UsingNSItemProvider2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsingNSItemProvider2.swift; sourceTree = "<group>"; };
 		2593D4402AB7856B0062FDCD /* UsingNSItemProvider3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsingNSItemProvider3.swift; sourceTree = "<group>"; };
+		2593D4422AB7F2CC0062FDCD /* UsingImmediately.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsingImmediately.swift; sourceTree = "<group>"; };
 		25B88BA22AB3F42C0089351D /* DragTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DragTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25B88BA52AB3F42C0089351D /* DragTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragTestApp.swift; sourceTree = "<group>"; };
 		25B88BA72AB3F42C0089351D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				2593D43A2AB7815E0062FDCD /* UsingNSItemProvider1.swift */,
 				2593D43E2AB7849E0062FDCD /* UsingNSItemProvider2.swift */,
 				2593D4402AB7856B0062FDCD /* UsingNSItemProvider3.swift */,
+				2593D4422AB7F2CC0062FDCD /* UsingImmediately.swift */,
 			);
 			path = DragTest;
 			sourceTree = "<group>";
@@ -157,6 +160,7 @@
 				2593D43F2AB7849E0062FDCD /* UsingNSItemProvider2.swift in Sources */,
 				2593D43D2AB782C50062FDCD /* UsingTransferable.swift in Sources */,
 				25B88BA82AB3F42C0089351D /* ContentView.swift in Sources */,
+				2593D4432AB7F2CC0062FDCD /* UsingImmediately.swift in Sources */,
 				2593D4392AB4BF440062FDCD /* UsingNSViewRepresentable.swift in Sources */,
 				25B88BA62AB3F42C0089351D /* DragTestApp.swift in Sources */,
 				2593D43B2AB7815F0062FDCD /* UsingNSItemProvider1.swift in Sources */,
