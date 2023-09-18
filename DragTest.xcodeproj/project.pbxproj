@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2593D4392AB4BF440062FDCD /* DraggableText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2593D4382AB4BF440062FDCD /* DraggableText.swift */; };
+		2593D4392AB4BF440062FDCD /* UsingNSViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2593D4382AB4BF440062FDCD /* UsingNSViewRepresentable.swift */; };
 		2593D43B2AB7815F0062FDCD /* UsingNSItemProvider1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2593D43A2AB7815E0062FDCD /* UsingNSItemProvider1.swift */; };
 		2593D43D2AB782C50062FDCD /* UsingTransferable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2593D43C2AB782C50062FDCD /* UsingTransferable.swift */; };
 		2593D43F2AB7849E0062FDCD /* UsingNSItemProvider2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2593D43E2AB7849E0062FDCD /* UsingNSItemProvider2.swift */; };
@@ -19,7 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2593D4382AB4BF440062FDCD /* DraggableText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraggableText.swift; sourceTree = "<group>"; };
+		2593D4382AB4BF440062FDCD /* UsingNSViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsingNSViewRepresentable.swift; sourceTree = "<group>"; };
 		2593D43A2AB7815E0062FDCD /* UsingNSItemProvider1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsingNSItemProvider1.swift; sourceTree = "<group>"; };
 		2593D43C2AB782C50062FDCD /* UsingTransferable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsingTransferable.swift; sourceTree = "<group>"; };
 		2593D43E2AB7849E0062FDCD /* UsingNSItemProvider2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsingNSItemProvider2.swift; sourceTree = "<group>"; };
@@ -67,7 +67,7 @@
 				25B88BA92AB3F42E0089351D /* Assets.xcassets */,
 				25B88BAE2AB3F42E0089351D /* DragTest.entitlements */,
 				25B88BAB2AB3F42E0089351D /* Preview Content */,
-				2593D4382AB4BF440062FDCD /* DraggableText.swift */,
+				2593D4382AB4BF440062FDCD /* UsingNSViewRepresentable.swift */,
 				2593D43C2AB782C50062FDCD /* UsingTransferable.swift */,
 				2593D43A2AB7815E0062FDCD /* UsingNSItemProvider1.swift */,
 				2593D43E2AB7849E0062FDCD /* UsingNSItemProvider2.swift */,
@@ -157,7 +157,7 @@
 				2593D43F2AB7849E0062FDCD /* UsingNSItemProvider2.swift in Sources */,
 				2593D43D2AB782C50062FDCD /* UsingTransferable.swift in Sources */,
 				25B88BA82AB3F42C0089351D /* ContentView.swift in Sources */,
-				2593D4392AB4BF440062FDCD /* DraggableText.swift in Sources */,
+				2593D4392AB4BF440062FDCD /* UsingNSViewRepresentable.swift in Sources */,
 				25B88BA62AB3F42C0089351D /* DragTestApp.swift in Sources */,
 				2593D43B2AB7815F0062FDCD /* UsingNSItemProvider1.swift in Sources */,
 				2593D4412AB7856B0062FDCD /* UsingNSItemProvider3.swift in Sources */,
