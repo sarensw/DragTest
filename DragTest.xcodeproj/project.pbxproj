@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2593D4392AB4BF440062FDCD /* DraggableText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2593D4382AB4BF440062FDCD /* DraggableText.swift */; };
+		2593D43B2AB7815F0062FDCD /* UsingNSItemProvider1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2593D43A2AB7815E0062FDCD /* UsingNSItemProvider1.swift */; };
+		2593D43D2AB782C50062FDCD /* UsingTransferable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2593D43C2AB782C50062FDCD /* UsingTransferable.swift */; };
+		2593D43F2AB7849E0062FDCD /* UsingNSItemProvider2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2593D43E2AB7849E0062FDCD /* UsingNSItemProvider2.swift */; };
+		2593D4412AB7856B0062FDCD /* UsingNSItemProvider3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2593D4402AB7856B0062FDCD /* UsingNSItemProvider3.swift */; };
 		25B88BA62AB3F42C0089351D /* DragTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B88BA52AB3F42C0089351D /* DragTestApp.swift */; };
 		25B88BA82AB3F42C0089351D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25B88BA72AB3F42C0089351D /* ContentView.swift */; };
 		25B88BAA2AB3F42E0089351D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25B88BA92AB3F42E0089351D /* Assets.xcassets */; };
@@ -14,6 +19,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2593D4382AB4BF440062FDCD /* DraggableText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraggableText.swift; sourceTree = "<group>"; };
+		2593D43A2AB7815E0062FDCD /* UsingNSItemProvider1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsingNSItemProvider1.swift; sourceTree = "<group>"; };
+		2593D43C2AB782C50062FDCD /* UsingTransferable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsingTransferable.swift; sourceTree = "<group>"; };
+		2593D43E2AB7849E0062FDCD /* UsingNSItemProvider2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsingNSItemProvider2.swift; sourceTree = "<group>"; };
+		2593D4402AB7856B0062FDCD /* UsingNSItemProvider3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsingNSItemProvider3.swift; sourceTree = "<group>"; };
 		25B88BA22AB3F42C0089351D /* DragTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DragTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25B88BA52AB3F42C0089351D /* DragTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragTestApp.swift; sourceTree = "<group>"; };
 		25B88BA72AB3F42C0089351D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -57,6 +67,11 @@
 				25B88BA92AB3F42E0089351D /* Assets.xcassets */,
 				25B88BAE2AB3F42E0089351D /* DragTest.entitlements */,
 				25B88BAB2AB3F42E0089351D /* Preview Content */,
+				2593D4382AB4BF440062FDCD /* DraggableText.swift */,
+				2593D43C2AB782C50062FDCD /* UsingTransferable.swift */,
+				2593D43A2AB7815E0062FDCD /* UsingNSItemProvider1.swift */,
+				2593D43E2AB7849E0062FDCD /* UsingNSItemProvider2.swift */,
+				2593D4402AB7856B0062FDCD /* UsingNSItemProvider3.swift */,
 			);
 			path = DragTest;
 			sourceTree = "<group>";
@@ -139,8 +154,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2593D43F2AB7849E0062FDCD /* UsingNSItemProvider2.swift in Sources */,
+				2593D43D2AB782C50062FDCD /* UsingTransferable.swift in Sources */,
 				25B88BA82AB3F42C0089351D /* ContentView.swift in Sources */,
+				2593D4392AB4BF440062FDCD /* DraggableText.swift in Sources */,
 				25B88BA62AB3F42C0089351D /* DragTestApp.swift in Sources */,
+				2593D43B2AB7815F0062FDCD /* UsingNSItemProvider1.swift in Sources */,
+				2593D4412AB7856B0062FDCD /* UsingNSItemProvider3.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +293,7 @@
 				DEVELOPMENT_TEAM = 88W4UN2KJH;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readwrite;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -300,6 +321,7 @@
 				DEVELOPMENT_TEAM = 88W4UN2KJH;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readwrite;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
